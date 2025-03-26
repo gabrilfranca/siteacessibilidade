@@ -5,5 +5,10 @@ document.addEventListener('DOMContentLoaded', function(){
     aumentaFonteBotao.addEventListener('click', function(){
        tamanhoAtualFonte += 0.1;
        document.body.style.fontSize= '${tamanhoAtualFonte}ren';
-    }
-    }
+    })
+    const diminuiFonteBotoa= document.getElementById('diminuir-fonte');
+    diminuiFonteBotoa.addEventListener('click', function(){
+        tamanhoAtualFonte -= 0.1;
+        document.body.style.fontSize= '$(tamnhoAtualfonte)rem';
+    })
+    })
